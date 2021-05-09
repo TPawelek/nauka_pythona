@@ -9,3 +9,8 @@ for i in imiona:
 
 for j in range(0,3):
     print("idx: "+ str(j) +" : " + imiona[j])
+
+print("--------------------")
+print(" +".join(imiona))
+arr = "a,b,,c,d,e,,f,g".split(',,')
+print(arr)

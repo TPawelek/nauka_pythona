@@ -1,8 +1,15 @@
 
-cart = ['produkt1','produkt2','produkt3','produkt4','produkt5','produkt6']
-price_list = [27,230,65,110,356,140]
+
+
+cart = {'ser': 27,
+        'mleko' : 3,
+        'kawa': 30,
+        'orzechy': 10,
+        'jogurt': 1,
+        'woda': 2}
+
 min_Price = 0
-sum_price = sum(price_list)
+sum_price = 0
 
 r1 = False # jesli wiecej niz 3 rzeczy to 5% rabatu
 r2 = False # jesli wartosc koszyka wieksza niz 500 zl to 10 % rabatu

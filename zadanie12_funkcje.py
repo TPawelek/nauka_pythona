@@ -57,4 +57,5 @@ def discound_r4():
             sum_price = sum_price - (price_list[idx])
     print(sum_price)
 
+
 discound_r4()

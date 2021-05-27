@@ -7,5 +7,3 @@ if __name__ == "__main__":
                'przebieg': 1000,
                'type': 'pasazerski'}
     print_dict(samolot)
-
-def change_function:

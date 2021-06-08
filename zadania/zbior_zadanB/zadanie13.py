@@ -20,9 +20,11 @@ def counter():
 
         if check_plus:
             balance += int_word
+            int_word = 0
             print(balance)
         elif check_minus:
             balance -= int_word
+            int_word = 0
             print(balance)
 
 

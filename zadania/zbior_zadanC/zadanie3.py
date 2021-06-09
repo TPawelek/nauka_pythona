@@ -1,0 +1,19 @@
+class Tringle:
+    def __init__(self, angle1, angle2, angle3):
+        self.angle1 = angle1
+        self.angle2 = angle2
+        self.angle3 = angle3
+    number_of_sides = 3
+
+    def check_angles(self):
+        numbers = self.angle1, self.angle2, self.angle3
+        sum_number = sum(numbers)
+        if sum_number == 180:
+            return True
+        else:
+            return False
+
+
+my_triangle = Tringle(90, 30, 60)
+print(my_triangle.number_of_sides)
+print(my_triangle.check_angles())

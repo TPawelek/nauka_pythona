@@ -125,3 +125,4 @@ class Conventer:
 obiekt1 = Conventer()
 obiekt1.get_numbers()
 obiekt1.change_numbers()
+# MMMMMDCLXXVIII
